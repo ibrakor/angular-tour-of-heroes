@@ -6,7 +6,9 @@ import {HeroesComponent} from "./components/heroes/heroes.component";
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, HeroesComponent],
+  imports: [
+    CommonModule,
+    RouterOutlet, HeroesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
